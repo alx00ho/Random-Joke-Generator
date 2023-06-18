@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: auto;
+  justify-content: center;
+}
+
+.container {
+  margin: auto;
+  width: 60%;
+  height: 70%;
+  background: #b6ffc3;
+  text-align: center;
+  padding: 80px;
+}
+
+#joke-box {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#joke-box h1 {
+  margin-top: 30%;
+  font-size: 3rem;
+}
+
+#joke {
+  font-size: 2rem;
+}
+
+.btn {
+  padding: 3rem;
+  font-size: 1.4rem;
+  display: block;
+  border-radius: 10px;
+}
